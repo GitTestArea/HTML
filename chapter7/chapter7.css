@@ -1,0 +1,153 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.list{
+	margin-top: 50px;
+}
+
+.list-box{
+	width: 960px;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.name{
+	padding: 20px 0 20px 20px;
+}
+
+/*奇数番目の背景色を灰色にする*/
+.name:nth-child(odd){
+	background-color: #dcdcdc;
+}
+
+/*偶数番目の背景色を白にする*/
+.name:nth-child(even){
+	background-color: white;
+}
+
+.main{
+	margin: 50px auto;
+	height: 100%;
+	width: 960px;
+}
+
+.box-name:nth-child(1){
+	height: 200px;
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	background-color: orange;
+	float: left;
+}
+
+.box-name:nth-child(2){
+	height: 200px;
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	background-color: yellow;
+	float: left
+}
+
+.box-name:nth-child(3){
+	height: 200px;
+	width: 30%;
+	/*margin-right: 5%;*/
+	margin-bottom: 40px;
+	background-color: yellow;
+	float: left
+}
+
+.box-name:nth-child(4){
+	height: 200px;
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	background-color: yellow;
+	float: left
+}
+
+.box-name:nth-child(5){
+	height: 200px;
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	background-color: orange;
+	float: left;
+}
+
+
+.box-name:nth-child(6){
+	height: 200px;
+	width: 30%;
+	/*margin-right: 5%;*/
+	margin-bottom: 40px;
+	background-color: yellow;
+	float: left
+}
+
+.box-name:nth-child(7){
+	height: 200px;
+	width: 30%;
+	margin-right: 5%;
+	/*margin-bottom: 40px;*/
+	background-color: yellow;
+	float: left
+}
+
+.box-name:nth-child(8){
+	height: 200px;
+	width: 30%;
+	margin-right: 5%;
+	/*margin-bottom: 40px;*/
+	background-color: yellow;
+	float: left
+}
+
+.box-name:nth-child(9){
+	height: 200px;
+	width: 30%;
+	/*margin-right: 5%;*/
+	/*margin-bottom: 40px;*/
+	background-color: orange;
+	float: left;
+}
+
+/*
+
+下部分の回答
+
+ここで箱の要件を指定している？
+.box{
+  background-color: #ffd700;
+  width: 30%;
+  height: 200px;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+1,5,9番目の背景色を変更する
+.box:first-child,　最初の色
+.box:last-child,　最後の色
+.box:nth-child(5){　5番目の色
+ background-color: #ff8c00;
+}
+
+.box:nth-child(3n){　3の倍数
+  margin-right: 0;
+}
+
+.box:nth-last-child(-n+3){ 最後から3個
+  margin-bottom: 0;
+}
+*/
