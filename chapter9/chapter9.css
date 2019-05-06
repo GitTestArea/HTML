@@ -1,0 +1,192 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.clearfix:after{
+	content:"";
+	clear: both;
+	display: block;
+}
+
+.main-box{
+	width: 960px;
+	margin: 50px auto;
+}
+
+.box-1{
+	float: left;
+	width: 300px;
+	position: relative;
+	margin-right: 30px;
+	border: 1px solid #000;
+}
+
+.step1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: orange;
+	color: #FFF;
+}
+
+.img1{
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	padding: 10px;
+}
+
+.text-box1{
+	padding: 10px;
+}
+
+.daimei1{
+	font-size: 20px;
+}
+
+.box-2{
+	float: left;
+	width: 300px;
+	position: relative;
+	margin-right: 30px;
+	border: 1px solid #000;
+}
+
+.step2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: orange;
+	color: #FFF;
+}
+
+.img2{
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	padding: 10px;
+}
+
+.text-box2{
+	padding: 10px;
+}
+
+.daimei2{
+	font-size: 20px;
+}
+
+.box-3{
+	float: left;
+	width: 300px;
+	position: relative;
+	border: 1px solid #000;
+}
+
+.step3{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: orange;
+	color: #FFF;
+}
+
+.img3{
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	padding: 10px;
+}
+
+.text-box3{
+	padding: 10px;
+}
+
+.daimei3{
+	font-size: 20px;
+}
+
+@media screen and (max-width: 768px){
+
+	.main-box{
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+		padding: 50px 0;
+	}
+
+	.box-1{
+		width: 90%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.step1{
+		font-size: 32px;
+	}
+
+	.img1{
+		width: 100%;
+		padding: 0 auto;
+	}
+
+	.text-box1{
+		width: 100%;
+		padding-top: 0;
+	}
+
+	.daimei1{
+	font-size: 20px;
+	}
+
+
+	.box-2{
+		width: 90%;
+		float: none;
+		margin: 20px auto;
+	}
+
+	.step2{
+		font-size: 32px;
+	}
+
+	.img2{
+		width: 100%;
+		padding: 0 auto;
+	}
+
+	.text-box2{
+		width: 100%;
+		padding-top: 0;
+	}
+
+	.daimei2{
+	font-size: 20px;
+	}
+
+	.box-3{
+		width: 90%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.step3{
+		font-size: 32px;
+	}
+
+	.img3{
+		width: 100%;
+		padding: 0 auto;
+	}
+
+	.text-box3{
+		width: 100%;
+		padding-top: 0;
+	}
+
+	.daimei3{
+	font-size: 20px;
+	}
+
+}
