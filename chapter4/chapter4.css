@@ -1,0 +1,130 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*headline要素の中のh1に適用する*/
+.headline h1{
+	text-align: center;/*文字列の中央寄せ*/
+	margin: 20px auto;/*上下に20pxの間隔をあける*/
+}
+
+.nav-list{
+	text-align: center;/*文字列の中央寄せ*/
+	padding: 15px 0;/*list野項目の上下を15pxずつ感覚を開ける*/
+	border-bottom: 1px solid #848282;/*要素の下に線を引くらしい*/
+  	border-top: 1px solid #848282;/*要素の上に線を引くらしい*/
+}
+
+.list-item{
+	padding: 0 20px;
+	list-style: none;
+	display: inline-block;
+}
+
+.color-box1{
+	width: 800px;/*4つずつならべたいので200×4の800px*/
+	height: 700px;
+	font-size: 0;/*font-sizeを0にすることで画像と画像の隙間をなくす*/
+	margin: 50px auto;
+	/*divはブロック要素なのでtext-alignふぁ使えない*/
+	/*その場合はmargin:0 autoをしようする。0のほうが上下の調節autoのほうが左右の調節*/
+}
+
+.color1{
+	width: 200px;
+	height: 200px;
+	background-color: #e6ffe9;
+	display: inline-block;/*要素を横並びにする*/
+}
+
+.color2{
+	width: 200px;
+	height: 200px;
+	background-color: #cbffd3;
+	display: inline-block;/*要素を横並びにする*/
+}
+
+.color3{
+	width: 200px;
+	height: 200px;
+	background-color: #aeffbd;
+	display: inline-block;
+}
+
+.color4{
+	width: 200px;
+	height: 200px;
+	background-color: #93ffab;
+	display: inline-block;
+}
+
+.color5{
+	width: 200px;
+	height: 200px;
+	background-color: #f3ffd8;
+	display: inline-block;
+}
+
+.color6{
+	width: 200px;
+	height: 200px;
+	background-color: #edffbe;
+	display: inline-block;
+}
+
+.color7{
+	width: 200px;
+	height: 200px;
+	background-color: #e9ffa5;
+	display: inline-block;
+}
+
+.color8{
+	width: 200px;
+	height: 200px;
+	background-color: #e4ff8d;
+	display: inline-block;
+}
+
+.color9{
+	width: 200px;
+	height: 200px;
+	background-color: #d9e5ff;
+	display: inline-block;
+}
+
+.color10{
+	width: 200px;
+	height: 200px;
+	background-color: #bad3ff;
+	display: inline-block;
+}
+
+.color11{
+	width: 200px;
+	height: 200px;
+	background-color: #a4c6ff;
+	display: inline-block;
+}
+
+.color12{
+	width: 200px;
+	height: 200px;
+	background-color: #8eb8ff;
+	display: inline-block;
+}
+
+footer{
+	width: 100%;
+	height: 120px;
+	text-align: center;/*文字の中央寄せ*/
+	padding: 60px 0;/*上下の調節*/
+	background-color: #848282;
+
+}
+
+.footer-text{
+	color: #fff;
+}
