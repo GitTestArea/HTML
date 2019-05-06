@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+h1{
+	padding: 20px 20px;
+}
+
+.head-img{
+	height: 400px;
+	width: 100%;
+	background-image: url(img/mv.jpg);
+	background-size: cover;
+	background-position: bottom;/*画像の下側の表示*/
+}
+
+main{
+	width: 840px;/*mainの横幅を840pxにする*/
+	margin: 0 auto;/*中央寄せ*/
+	padding: 20px 0 50px 0;/*上20px下に50px間隔をあける*/
+}
+
+.box-item{
+	border-bottom: 2px solid #f7f7f7;/*要素の下に単線を引く*/
+	padding: 30px 0;/*上下の余白を30pxあける*/
+}
+
